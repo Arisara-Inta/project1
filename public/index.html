@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERIES-KOREA</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Sriracha?subset=thai#standard-styles">
+    <style>
+        .logo {}
+
+        ul.menu {
+            list-style-type: none;
+            margin: 0 1px;
+            padding: 10px;
+            overflow: hidden;
+            background-color: rgb(37, 35, 35);
+        }
+
+        ul.menu li {
+            background-color: rgb(37, 35, 35);
+            float: left;
+        }
+
+        ul.menu li a {
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            color: #2196F3;
+            font-size: 20px;
+            position: relative;
+            border-radius: 5px;
+
+        }
+
+        li a:hover {
+            background-color: white;
+            color: rgb(255, 255, 255);
+        }
+
+        .active {
+            background-color: #000000;
+        }
+
+        /*.search-container*/
+        .menu_search {
+            box-sizing: border-box;
+        }
+
+        .menu_search input[type=text] {
+            margin-top: 10px;
+            font-size: 15px;
+            border: none;
+        }
+
+        .menu_search input[type=text] {
+            padding: 2px;
+            margin-top: 5px;
+            border: none;
+            font-size: 15px;
+        }
+
+        .menu_search input[type=text] {
+            border: 3px solid white;
+        }
+
+
+        }
+
+        /* body-left */
+        div.body-red h3 a {
+            text-decoration: none;
+            border-radius: 10px;
+            border: 1px solid black;
+            background-color: black;
+            
+            
+        }
+
+        .body-red {
+            width: 78.5%;
+            position: absolute;
+        }
+
+        .body-red h3 {
+            margin-top: 2%;
+            background-color: #2196F3;
+            padding: 1px;
+            border-radius: 5px;
+        }
+
+        div.body-red h3 {
+            width: 70%;
+            height: 500px;
+        }
+
+        div#body-content {
+            background-color: rgb(37, 35, 35);
+            width: 55%;
+            border: 1px solid #2196F3;
+            height: 1400px;
+        }
+
+        div#body-content {
+            position: absolute;
+            margin-top: 4.5%;
+        }
+
+        div.body-left {
+            width: 100%;
+            margin-left: 60px;
+        }
+
+        div div.body-left div {
+            background-color: black;
+            width: 25%;
+            float: left;
+            margin: 5px;
+            border: 1px solid black;
+            padding: 5px;
+            position: relative;
+
+        }
+
+        div div.body-left div div {
+            position: absolute;
+            bottom: 5px;
+            border: none;
+            opacity: 0.6;
+            /*opacity and filter ลดความเค้มแสง */
+            filter: alpha(opacity=40);
+            width: auto;
+            font-size: 13px;
+            color: white;
+            text-align: center;
+
+        }
+
+        div.body-left div img {
+            width: 100%;
+            height: 300px;
+        }
+
+        div ul.footer-bar li a {
+            padding: 5px;
+            color: rgb(252, 252, 252);
+            margin-left: 5px;
+        }
+
+        ul.footer-bar li {
+            float: left;
+        }
+
+        div ul.footer-bar {
+            padding: 5px;
+            text-decoration: none;
+            overflow: hidden;
+
+        }
+
+        ul.footer-bar {
+            position: absolute;
+            width: auto;
+            margin-left: 36%;
+            margin-top: 130%;
+        }
+
+        .footer-bar {
+            list-style-type: none;
+            margin: 0 20px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: rgb(77, 63, 63);
+        }
+
+        div.content-head {
+            margin-left: 60%;
+        }
+
+        div.heading {
+            background-color: #2196F3;
+            border-radius: 3px;
+            height: 50px;
+            width: 70.5%;
+        }
+
+        h3.body-title {
+            width: 50%;
+        }
+
+        h3.body-title {
+            margin-top:10%;
+        }
+
+        .content-body {
+            background-color: rgb(37, 35, 35);
+            border: 1px solid #2196F3;
+            margin-top: -2%;
+            height: 300px;
+            width: 70%
+        }
+
+        /*หมวดแนะนำ*/
+        div#body-mid {
+            
+        }
+
+        div#body-mid h3 {
+            border-radius: 5px;
+            background-color: #2196F3;
+            width: 425px;
+            margin-left: 60%;
+            margin-top: 5%;
+            height: 50px;
+        }
+
+        div.body-mid1 {
+            width: 28%;
+            height: auto;
+            margin-left: 60%;
+            margin-top: -2%;
+            background-color: rgb(37, 35, 35);
+            border: 1px solid  background-color: #2196F3;;
+        }
+
+        div.body-mid1 ul {
+            border-radius: 5px;
+            height: 400px;
+            list-style-type:
+            width: 86%;
+            margin-top: 4%;
+            margin-left: 3%;ผ
+            background-color: #201e1e;
+        }
+
+        div.body-mid1 ul li a {
+            display: block;
+            color: rgb(255, 255, 255);
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body style="background: rgb(155, 149, 149);">
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#1">หน้าแรก</a></li>
+                    <li><a href="#2">ซับไทย</a></li>
+                    <li><a href="#3">พากย์ไทย</a></li>
+                    <li style="float: right;"><a class="active" href="#6">ค้นหา</a></li>
+                    <div class="menu_search">
+                        <form action="saerch_bar" style="float: right;">
+                            <input type="text" placeholder="" name="search">
+                        </form>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    </div>
+
+    <div class="container">
+        <div>
+            <h1 style="text-align: center; background-color: rgb(155, 149, 149); ">ชื่อเว็บ</h1>
+        </div>
+        <div class="body-red">
+            <h3 style="font-size: 25px;">
+                อัพเดตล่าสุด <a href="" style=" float: right; color: rgb(255, 255, 255);">รายชื่อทั้งหมด>></a>
+            </h3>
+        </div>
+        <div id="body-content">
+            <div class="body-left">
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง" src="picKorea/A-Korean-Odyssey.jpg"
+                            alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง"
+                            src="picKorea/Backstreet_Rookie.jpg" alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง"
+                            src="picKorea/Cheese_in_the_Trap.jpg" alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง"
+                            src="picKorea/DescendantsoftheSun.jpg" alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง"
+                            src="picKorea/extraordinary-you.jpg" alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง"
+                            src="picKorea/Goblin.jpg" alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง"
+                            src="picKorea/My ID is Gangnam Beauty.jpg" alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง" src="picKorea/The Legend of the Blue Sea.jpg"
+                            alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+                <div>
+                    <a href=""><img title="ชื่อเรื่อง"
+                            src="picKorea/You_Who_Came_From_the_Stars.jpg" alt=""></a>
+                    <div>ชื่อเรื่อง</div>
+                </div>
+
+                <ul class="footer-bar">
+                    <li><a href="#1">1</a> </li>
+                    <li><a href="#2">2</a></li>
+                    <li><a href="#3">3</a></li>
+                    <li><a href="#4">4</a></li>
+                    <li><a href="#>>">>></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content-head">
+            <div class="heading">
+                <h3 style="font-size: 25px;" class="body-title">หมวดหมู่</h3>
+                <div></div>
+            </div>
+            <div class="content-body">
+                <iframe src="" frameborder="0">ในหมวดหมู่</iframe>
+            </div>
+        </div>
+        <div id="body-mid">
+            <h3 style="font-size: 25px;">
+            ยอดนิยม    
+            </h3>
+        </div>
+        <div class="body-mid1">
+            <ul id="mid2">
+                <li><a href="">ซีรี่ย์แนะนำ</a></li>
+                <li><a href="">ซีรี่ย์มาใหม่</a></li>
+                <li><a href="">ซีรี่ย์จบแล้ว</a></li>
+                <li><a href="">ซีรี่ย์ยังไม่จบแล้ว</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
